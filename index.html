@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .new{
+            background-color: red;
+        }
+    </style>
+</head>
+<body id="body">
+    
+
+<input type="text" id="name" oninput="myFunc(this.id)">
+<h1 id="title">Hush kelipsiz</h1>
+<marquee behavior="" direction="" id="xat"></marquee>
+
+<script>
+    function myFunc(x){
+        document.getElementById(x).style.background = "green"
+        document.getElementById("body").classList.toggle("new")
+    
+            let a = document.getElementById("title").textContent = "sen kichikroq ism kirit eshshak 🤬"
+        
+            document.getElementById("xat").innerHTML = "seni Sevaman 💖 "
+        
+    }
+    
+
+
+</script>
+
+</body>
+</html>
