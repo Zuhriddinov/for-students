@@ -2,18 +2,16 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    background-color: red;
+    background-color: black;
 }
-container h1{
+div h1{
     
     color: #5B88FC;
 font-family: Inter;
-font-size: 222px;
+font-size: 220px;
 font-style: normal;
 font-weight: 600;
-line-height: normal;
-justify-content: center;
-text-align: center;
+line-height: norma
 }
 
 
@@ -21,11 +19,16 @@ div h2{
     color: #EBEDF0;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: Inter;
-font-size: 121px;
+font-size: 120px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-justify-content: center;
-text-align: center;
+
 }
 
+
+div img{
+    width: 359.135px;
+height: 341.59px;
+flex-shrink: 0;
+}
